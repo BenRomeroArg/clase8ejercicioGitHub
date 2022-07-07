@@ -7,11 +7,15 @@
     background-color: blueviolet;
     color:aliceblue;
 }
+.parrafo{
+    text-align: center;
+}
 #p_texto1{
     text-align: center;
     margin-bottom: 2em;
 }
 #imagen1{
+    
     width:20%;
     float:right;
 }
@@ -30,7 +34,7 @@
 #p_texto2{
     text-align: center;
 }
-#imagen2{
-    width: 25%;
+.imagenes2{
+    width: 35%;
     float:left;
 }
