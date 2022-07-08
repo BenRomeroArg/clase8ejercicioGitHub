@@ -1,5 +1,5 @@
 #inicio{
-    width: 95%;
+    width: 100%;
     background-color: rgb(76, 74, 168);
 }
 #texto1{
@@ -76,6 +76,7 @@
     background-color: rgb(125, 131, 224);
 }
 .video{
+    padding-left: 10px;
     align-self:center;
 }
 .imagenes{
