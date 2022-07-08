@@ -1,40 +1,108 @@
+#inicio{
+    width: 95%;
+    background-color: rgb(76, 74, 168);
+}
+#texto1{
+    color: rgb(10, 10, 10);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#texto1:hover{
+    color: yellowgreen;
+}
+.p_texto1{
+    color:yellowgreen;
+}    
+.p_texto1:hover{
+    color: white;
+}
+#p_inicio{
+    font-size: 20px;
+}
+#p_inicio:hover{
+    font-size:30px;
+    transition: 0.5;
+}
 #Texto1{
+    background-color: rgb(125, 131, 224);
     width:80%;
-    float:left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 150%;
     text-align: justify;
-    background-color: blueviolet;
-    color:aliceblue;
-}
-.parrafo{
-    text-align: center;
 }
 #p_texto1{
     text-align: center;
     margin-bottom: 2em;
 }
 #imagen1{
-    
     width:20%;
-    float:right;
+    float: right;
 }
 #separacion{
-    clear:both;
+    clear: both;
 }
-#Texto2{
+#texto2{
     width:75%;
-    float:right;
+    float:left;
     font-size: 200%;
     text-align: justify;
-    background-color: blueviolet;
-    color:aliceblue;
-
 }
 #p_texto2{
     text-align: center;
+    margin-bottom: 2em;
+    padding-left: 10px;
 }
-.imagenes2{
-    width: 35%;
-    float:left;
+#Texto3{
+    background-color: rgb(125, 131, 224);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+#p_texto3{
+    color: grey;
+    text-align: left;
+    margin-bottom: 2em;
+}
+#p_texto3:hover{
+    background-color: black;
+    transform: 0.5;
+}
+#imagen2{
+    width: 25%;
+    float: left;
+}
+#video1{
+    display: flex;
+    flex-direction:column;
+    background-color: rgb(125, 131, 224);
+}
+.video{
+    align-self:center;
+}
+.imagenes{
+    width: 450px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: grey;
+    margin-top: 10px;
+    font-size: 25px;
+    font-style:oblique;
+    align-content: space-between;
+}
+.p_final{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btnVolver{
+    text-decoration: none;
+    text-align: center;
+    font-size:30px;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: solid white 2px;
+
 }
