@@ -1,13 +1,16 @@
+body{
+    background: linear-gradient(rgb(44, 43, 43),rgb(3, 53, 128), rgb(7, 86, 206), rgba(72, 143, 248, 0.333),
+    rgb(3, 53, 128), rgb(7, 86, 206),rgba(72, 143, 248, 0.333), rgb(43, 53, 58));
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 #inicio{
     width: 100%;
     background-color: rgb(76, 74, 168);
 }
 #texto1{
     color: rgb(10, 10, 10);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-#texto1:hover{
-    color: yellowgreen;
+    font-size: 2.9em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .p_texto1{
     color:yellowgreen;
@@ -58,7 +61,8 @@
     font-size: 30px;
 }
 #p_texto3{
-    color: grey;
+    color: rgb(73, 73, 73);
+    font-weight: bolder;
     text-align: left;
     margin-bottom: 2em;
 }
